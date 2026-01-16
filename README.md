@@ -51,7 +51,12 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 
 ---
 
-### 📂 How to Run
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/YourUsername/forecasting-demand-by-weather.git](https://github.com/YourUsername/forecasting-demand-by-weather.git)
+### 📜 Data License & Attribution
+This project uses the **London Bike Sharing Dataset**, provided by **Transport for London (TfL)**.
+
+**Attribution:**
+* Powered by TfL Open Data
+* Contains OS data © Crown copyright and database rights 2016
+* Geomni UK Map data © and database rights [2019]
+
+*The data is used under the Open Government Licence v2.0.*
