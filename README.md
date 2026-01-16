@@ -64,7 +64,7 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 - **Decision:** Reject H₀ (Rain significantly impacts demand)
 
 **Why Welch's Test?**
-Unlike a standard t-test, Welch's doesn't assume equal variance between groups—critical when comparing Clear (N=6,150) vs Rain (N=2,155) samples with different distributions.
+Unlike a standard t-test, Welch's doesn't assume equal variance between groups; critical when comparing Clear (N=6,150) vs Rain (N=2,155) samples with different distributions.
 
 
 ### Data License & Attribution
