@@ -1,6 +1,6 @@
 #  Forecasting Demand by Weather: An Operations Audit
 
-###  Executive Summary
+###  Summary
 Managers often rely on intuition to adjust staffing during bad weather ("It's raining, cut the shift by 50%"). This project uses **Hypothesis Testing** to quantify the exact impact of rain on demand, providing a data-driven recommendation for dynamic rostering.
 
 **The Insight:** Rain reduces demand by **38.7%** (not 50%). Current manual adjustments are likely resulting in under-staffing and lost revenue.
