@@ -1,27 +1,27 @@
-# 🌧️ Forecasting Demand by Weather: An Operations Audit
+#  Forecasting Demand by Weather: An Operations Audit
 
-### 📋 Executive Summary
+###  Executive Summary
 Managers often rely on intuition to adjust staffing during bad weather ("It's raining, cut the shift by 50%"). This project uses **Hypothesis Testing** to quantify the exact impact of rain on demand, providing a data-driven recommendation for dynamic rostering.
 
 **The Insight:** Rain reduces demand by **38.7%** (not 50%). Current manual adjustments are likely resulting in under-staffing and lost revenue.
 
 ---
 
-### 💼 The Business Problem
+###  The Business Problem
 **Context:** A Micro-mobility / Logistics operator in London.
 **The Pain Point:** Over-staffing on rainy days burns cash; under-staffing loses customers.
 **The Goal:** Determine the statistically optimal staff reduction percentage for rainy days.
 
 ---
 
-### 🧪 Hypothesis
+### Hypothesis
 We performed a **Welch's Two-Sample T-Test** to verify the impact of weather.
 * **$H_0$ (Null):** Rain has no significant impact on hourly demand.
 * **$H_1$ (Alternate):** Rain significantly lowers hourly demand.
 
 ---
 
-### 🛠️ Tools & Technologies
+### Tools & Technologies
 * **Python** (Pandas, NumPy)
 * **Stats** (Scipy - T-Tests)
 * **Visualization** (Seaborn, Matplotlib)
@@ -29,7 +29,7 @@ We performed a **Welch's Two-Sample T-Test** to verify the impact of weather.
 
 ---
 
-### 📊 Key Findings
+### Key Findings
 
 #### 1. The "Rain Tax" is 38.7%, not 50%
 Our analysis of 17,414 hourly records shows a statistically significant drop in demand ($p < 0.001$). However, the drop is smaller than anecdotal estimates.
@@ -48,7 +48,7 @@ Commuters are resilient; leisure riders are not.
 
 ---
 
-### 💡 Recommendations
+###  Recommendations
 Based on the data, the Operations team should move from static shifts to **Dynamic Rostering**:
 1.  **Weekdays:** Reduce staff by **35%** when rain is forecast.
 2.  **Weekends:** Reduce staff by **45%** when rain is forecast.
@@ -56,9 +56,7 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 
 ---
 
----
-
-### 📈 Statistical Validation
+### Statistical Validation
 
 **Test Used:** Welch's Two-Sample T-Test
 - **T-Statistic:** 20.14
@@ -67,7 +65,9 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 
 **Why Welch's Test?**
 Unlike a standard t-test, Welch's doesn't assume equal variance between groups—critical when comparing Clear (N=6,150) vs Rain (N=2,155) samples with different distributions.
-### 📜 Data License & Attribution
+
+
+### Data License & Attribution
 This project uses the **London Bike Sharing Dataset**, provided by **Transport for London (TfL)**.
 
 **Attribution:**
