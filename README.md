@@ -32,7 +32,7 @@ We performed a **Welch's Two-Sample T-Test** to verify the impact of weather.
 ### Key Findings
 
 #### 1. The "Rain Tax" is 38.7%
-Our analysis of 17,414 hourly records shows a statistically significant drop in demand ($p < 0.001$). However, the drop is smaller than anecdotal estimates.
+Analysis of 17,414 hourly records shows a statistically significant drop in demand ($p < 0.001$). However, the drop is smaller than anecdotal estimates.
 
 | Condition | Avg Demand (Rentals/Hr) | Impact |
 | :--- | :--- | :--- |
@@ -52,7 +52,6 @@ Commuters are resilient; leisure riders are not.
 Based on the data, the Operations team should move from static shifts to **Dynamic Rostering**:
 1.  **Weekdays:** Reduce staff by **35%** when rain is forecast.
 2.  **Weekends:** Reduce staff by **45%** when rain is forecast.
-3.  **Financial Impact:** Correcting the "50% Cut" rule prevents missed revenue opportunities estimated at **£23,232/month**.
 
 ---
 
