@@ -56,6 +56,17 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 
 ---
 
+---
+
+### 📈 Statistical Validation
+
+**Test Used:** Welch's Two-Sample T-Test
+- **T-Statistic:** 20.14
+- **P-Value:** < 0.00001
+- **Decision:** Reject H₀ (Rain significantly impacts demand)
+
+**Why Welch's Test?**
+Unlike a standard t-test, Welch's doesn't assume equal variance between groups—critical when comparing Clear (N=6,150) vs Rain (N=2,155) samples with different distributions.
 ### 📜 Data License & Attribution
 This project uses the **London Bike Sharing Dataset**, provided by **Transport for London (TfL)**.
 
