@@ -44,7 +44,7 @@ Commuters are resilient; leisure riders are not.
 * **Weekdays:** Demand drops by **36.1%** (Commuters still travel).
 * **Weekends:** Demand drops by **45.4%** (Leisure riders stay home).
 
-<!-- ![Chart Preview](weather_impact_chart.png) -->
+![Chart Preview](chart.png) 
 
 ---
 
