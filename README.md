@@ -23,7 +23,7 @@ We performed a **Welch's Two-Sample T-Test** to verify the impact of weather.
 
 ### Tools & Technologies
 * **Python** (Pandas, NumPy)
-* **Stats** (Scipy - T-Tests)
+* **Stats** (T-Tests)
 * **Visualization** (Seaborn, Matplotlib)
 * **Dataset Source:** [London Bike Sharing Dataset (Kaggle)](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset)
 
@@ -31,7 +31,7 @@ We performed a **Welch's Two-Sample T-Test** to verify the impact of weather.
 
 ### Key Findings
 
-#### 1. The "Rain Tax" is 38.7%, not 50%
+#### 1. The "Rain Tax" is 38.7%
 Our analysis of 17,414 hourly records shows a statistically significant drop in demand ($p < 0.001$). However, the drop is smaller than anecdotal estimates.
 
 | Condition | Avg Demand (Rentals/Hr) | Impact |
