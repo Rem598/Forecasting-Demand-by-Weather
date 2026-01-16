@@ -1,4 +1,4 @@
-# 🌧️ Operations Audit: Optimizing Staffing for Weather Risks
+# 🌧️ Forecasting Demand by Weather: An Operations Audit
 
 ### 📋 Executive Summary
 Managers often rely on intuition to adjust staffing during bad weather ("It's raining, cut the shift by 50%"). This project uses **Hypothesis Testing** to quantify the exact impact of rain on demand, providing a data-driven recommendation for dynamic rostering.
@@ -39,7 +39,7 @@ Commuters are resilient; leisure riders are not.
 * **Weekdays:** Demand drops by **~28%** (Commuters still travel).
 * **Weekends:** Demand drops by **~41%** (Leisure riders stay home).
 
-*(Insert your Screenshot of the Bar Chart Here)*
+![Chart Preview](PASTE_YOUR_IMAGE_LINK_HERE)
 
 ---
 
@@ -54,4 +54,4 @@ Based on the data, the Operations team should move from static shifts to **Dynam
 ### 📂 How to Run
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/YourUsername/staffing-optimization-audit.git](https://github.com/YourUsername/staffing-optimization-audit.git)
+   git clone [https://github.com/YourUsername/forecasting-demand-by-weather.git](https://github.com/YourUsername/forecasting-demand-by-weather.git)
