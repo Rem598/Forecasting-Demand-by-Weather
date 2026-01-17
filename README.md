@@ -8,7 +8,7 @@ Managers often rely on intuition to adjust staffing during bad weather ("It's ra
 ---
 
 ###  The Business Problem
-**Context:** A Micro-mobility / Logistics operator in London.
+**Context:** A Micro-mobility  operator in London.
 **The Pain Point:** Over-staffing on rainy days burns cash; under-staffing loses customers.
 **The Goal:** Determine the statistically optimal staff reduction percentage for rainy days.
 
