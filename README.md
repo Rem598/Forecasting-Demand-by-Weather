@@ -32,6 +32,11 @@ The effect is not uniform. Commuters are more resilient to rain than leisure rid
 | Weekdays | -36.1% |
 | Weekends | -45.4% |
 
+
+---
+
+[!Chart](https://github.com/Rem598/Forecasting-Demand-by-Weather/blob/main/chart.png)
+
 ---
 
 
