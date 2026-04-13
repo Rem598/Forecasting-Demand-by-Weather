@@ -34,7 +34,6 @@ The effect is not uniform. Commuters are more resilient to rain than leisure rid
 
 ---
 
-## Why Assumption-Checking Matters
 
 Before running any test, I validated two assumptions:
 
@@ -42,7 +41,7 @@ Before running any test, I validated two assumptions:
 
 **Equal variance:** Levene's test showed the two groups have unequal variance (Clear: n = 6,150, Rain: n = 2,155, different spread). This ruled out a standard t-test. Welch's t-test, which does not assume equal variance, is the correct choice here. Using the wrong test would have produced misleading confidence intervals.
 
-These are not procedural checkboxes. They are the difference between a result you can act on and one you cannot.
+
 
 ---
 
