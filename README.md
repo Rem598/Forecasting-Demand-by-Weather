@@ -8,8 +8,7 @@ Quantifying the exact impact of rain on public transit demand using hypothesis t
 
 Operations managers often adjust staffing during bad weather by intuition: "It's raining, cut the shift by 50%." But intuition is not a staffing model. What does the data actually say?
 
-This project uses Welch's two-sample t-test on 17,414 hourly observations from a London micro-mobility operator to measure the precise effect of rain on demand — and to test whether the manual adjustment currently being used is correct.
-
+This project uses Welch's two-sample t-test on 17,414 hourly observations from a London micro-mobility operator to measure the precise effect of rain on demand.
 **Hypotheses:**
 - H0: Rain has no significant impact on hourly demand.
 - H1: Rain significantly lowers hourly demand.
